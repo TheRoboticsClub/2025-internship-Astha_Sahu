@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Week 1 - RA Infrastructure and Documentation"
+date:   2025-05-29 13:38:21 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Setup the internship blog
+- Read about the RA Architecture
+- Studied the structure of exercises to get a deeper understanding
+
+Below is a quick summary of what I have learnt so far:
+
+<h3> RA Architecture </h3>
+
+The frontend of RA is served via Django Webserver and it communicates with the backend using websockets. The Robotics Backend has several exercises available using Gazebo and STDR. Each exercise is composed of an exercise.html and an exercise.py. The exercise.py is running inside the RoboticsBackend whereas the exercise.html comes from the browser. They communicate through websockets. 
+
+- The code websocket is used to interact with the brain of the robot. User's source code is sent from the browser to the exercise.py through this websocket.
+- The GUI websocket is used to send data from the backend to the frontend like camera feed.
+- The manager websocket requests the exercises and handles the control of the simulation.
+
+<h3> What happens when Robotics Backend Container is opened </h3>
+
+- When the RoboticsBackend container is opened, it starts the execution of the manager.py. Once the user selects an exercise, the browser communicates to the manager.py and differentes messages depending the user's actions.
+
+- Once the manager.py receives the "start" message, it searches for the instructions.json file. This file includes the path to the exercise.py file of each exercise or the route to the file for launching Gazebo.
+
+- Once the manager.py has the name of the exercise, it recovers from the instructions.json file the object whose key match the exercise name.
+
+<h3> What happens after user presses run </h3>
+
+When a user requests to load the code in the robot:
+
+- The code is sent from the ACE Editor of the browser to the manager.py process of the RoboticsBackend. The code is checked by Pylint and the errors are returned to the browser. If the browser receives an error, the error is displayed on a modal and the code is not sent to the brain.
+- If there aren't any errors, the code is sent from the browser to the exercise.py through the code websocket. Exercise.py receives the user's source code as raw text and puts it to work.
+- The exercise.py separates the code in two portions: the sequential part (executed once) and the iterative part (executed every brain interval). The code is separated by the first while True loop encountered. 
+- Within the iterative part the brain measures the time after each iteration so as not to saturate the CPU and keep a controlled rhythm of iterations per second to leave the CPU free for other browser tasks. The iterative part is inserted into another template along with extra code that controls the iterations per second that are carried out, so this computational engine is tied to the user code to ensure that the code is executed at a nominal frequency. 
+
+
