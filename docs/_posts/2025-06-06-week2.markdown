@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 2 - Autoparking Exercise - Ackermann models and migration to Gazebo Harmonic "
+title:  "Week 2 - Autoparking Exercise - Setting up  "
 date:   2025-06-05 13:38:21 +0530
 categories: jekyll update
 ---
@@ -15,13 +15,13 @@ This week I completed the following tasks:
 
 <h3>Summary</h3>
 
-This week, I focused on understanding the backend and overall workflow of the Autoparking exercise. I'm currently working on migrating this exercise to Gazebo Harmonic, using a Prius Ackermann steering model. 
+<p> This week, I focused on understanding the backend and overall workflow of the Autoparking exercise. I'm currently working on migrating this exercise to Gazebo Harmonic, using a Prius Ackermann steering model. </p>
 
-To begin the migration, I updated the necessary model URIs and working on updating and integrating the required Gazebo plugins. This integration is being handled using the ros_gz bridge, which connects ROS 2 (Humble) with Gazebo Harmonic for plugin communication and sensor data exchange.
+<p> To begin the migration, I updated the necessary model URIs and working on updating and integrating the required Gazebo plugins. This integration is being handled using the ros_gz bridge, which connects ROS 2 (Humble) with Gazebo Harmonic for plugin communication and sensor data exchange. </p>
 
 ![gazebosim](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/ackermann.png?raw=true)
 
-I also forked and cloned the RoboticsInfrastructure repository and created a dedicated branch for my work. The development environment has been set up successfully, and I’ve verified that the frontend for the Autoparking exercise launches as expected.
+<p> I also forked and cloned the RoboticsInfrastructure repository and created a dedicated branch for my work. The development environment has been set up successfully, and I’ve verified that the frontend for the Autoparking exercise launches as expected. </p>
 
 
 
