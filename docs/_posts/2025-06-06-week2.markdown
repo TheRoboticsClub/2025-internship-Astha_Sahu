@@ -7,16 +7,25 @@ categories: jekyll update
 
 This week I completed the following tasks:
 
-- Researched the backend and working of Autoparking exercise
+- Looked into and understood the backend and working of Autoparking exercise
 - Looked for ackermann steering car models in Gazebo Harmonic
 - Started working on migration of autoparking exercise to Gazebo Harmonic
+- Forked and cloned RoboticsInfrastructure repository
+- Set up developer environment
 
 <h3>Summary</h3>
 
-After, going through the exercises backend, I have created a plan for migration. I will begin by updating the model files in CustomRobots directory and then update the world files in World Directory. After creating a launcher for the updated world, to test the model and the world, I have to create a RADI with Robotics Infrastructure flag to the branch name. 
-I have updated the ackermann car model in my local setup to Gazebo Harmonic. I will be working on the world files next.
+This week, I focused on understanding the backend and overall workflow of the Autoparking exercise. I'm currently working on migrating this exercise to Gazebo Harmonic, using a Prius Ackermann steering model. 
+
+To begin the migration, I updated the necessary model URIs and working on updating and integrating the required Gazebo plugins. This integration is being handled using the ros_gz bridge, which connects ROS 2 (Humble) with Gazebo Harmonic for plugin communication and sensor data exchange.
 
 ![gazebosim](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/ackermann.png?raw=true)
+
+I also forked and cloned the RoboticsInfrastructure repository and created a dedicated branch for my work. The development environment has been set up successfully, and I’ve verified that the frontend for the Autoparking exercise launches as expected.
+
+
+
+
 
 
 
