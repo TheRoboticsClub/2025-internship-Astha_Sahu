@@ -4,6 +4,8 @@ title:  "Week 1 - RA Infrastructure and Documentation"
 date:   2025-05-29 13:38:21 +0530
 categories: jekyll update
 ---
+<h3>Goals</h3>
+During my internship, I will be working on migrating the Autoparking exercise from Gazebo 11 to Gazebo Harmonic. 
 
 This week I completed the following tasks:
 
