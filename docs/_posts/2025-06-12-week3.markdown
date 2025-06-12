@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Week 3 - New model and updating database"
+date:   2025-06-12 18:26:15 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Built a waymo-inspired car model from scratch in Gazebo Harmonic
+- Forked the RA repository and added the road junction exercise to the database
+
+<h3>New model</h3>
+
+The new car model is aimed to be used in both autoparking and road junction exercise. The model is inspired from waymo cars. Some of the model features are listed below:
+
+- 360 degree Lidar mimicking the radar used in real life waymo cars
+- 2D Lidar in the front using a ray sensor to address the blindspots of top lidar
+- A rear-view camera
+- Two wide angle side cameras (left and right) near windshield
+- Ackermann steering 
+![car](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/waymo.png?raw=true)
+
+The topics (grep waymo) being published are :
+
+- /model/waymo/odometry
+- /model/waymo/tf
+- /waymo/camera_info
+- /waymo/camera_left_side
+- /waymo/camera_rear
+- /waymo/camera_right_side
+- /waymo/lidar
+- /waymo/lidar/points
+- /waymo/ray
+- /waymo/ray/points
+- /model/waymo/cmd_vel
+- /world/waymo/light_config
+- /world/waymo/material_color
+
+<h3>New exercise - Road Junction</h3>
+
+During my internship, I will also be working on a creating a new exercise in the autonomous driving collection. The road junction exercise will be about safely navigating a road junction with ongoing traffic controlled by a traffic light.
+
+This week, I have forked the RA repository and have added the exercise to [database](https://github.com/aastha51551/RoboticsAcademy/blob/humble-devel/database/exercises/db.sql)
+
+This exercise, as mentioned earlier will be using the same car model.
+
+
+
+
+
+
+
+
+
