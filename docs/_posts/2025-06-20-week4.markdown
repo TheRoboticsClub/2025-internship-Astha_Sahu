@@ -20,7 +20,7 @@ Although the ```/cmd_vel``` topic was being published correctly, the car did not
 
 Here's a video of the moving car:
 
-![car](https://youtu.be/2ZxBUUpgqvc)
+[car](https://youtu.be/2ZxBUUpgqvc)
 
 
 
