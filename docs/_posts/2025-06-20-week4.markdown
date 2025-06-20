@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Week 4 - Debugging the drivetrain"
+date:   2025-06-20 10:17:36 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Improved the previous waymo model
+- Fixed the drive train
+
+<h3>Summary</h3>
+
+This week, I focused on improving the stability and overall performance of the car. Initially, the wheels were wobbly and lacked proper alignment, which affected the car's responsiveness. To address this, I fixed issues with the chassis and used joint controllers to test and fine-tune the wheel behavior. Once the wheels were stable, I proceeded to test the drivetrain functionality using the Ackermann steering plugin.
+
+Although the ```/cmd_vel``` topic was being published correctly, the car did not respond to the commands as expected. After investigating the issue, I identified incorrect parameters in the configuration. Updating these parameters resolved the problem, and the car responded accurately to the velocity commands. Overall, the tuning and debugging efforts led to a stable and functional system.
+
+<h3>Functional Car</h3>
+
+Here's a video of the moving car:
+
+![car]()
+
+
+
+
+
+
+
+
