@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Week 5 - Road Junction World"
+date:   2025-06-20 21:40:19 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Co-ordinated with Fernando to test the new car in F1 circuit
+- Made a Work in Progress Video and posted in on YouTube
+- Looked into [marker_visual_loc.world](https://github.com/JdeRobot/RoboticsInfrastructure/blob/humble-devel/Worlds/marker_visual_loc.world) and [autoparking world files](https://github.com/JdeRobot/RoboticsInfrastructure/blob/humble-devel/Worlds/autoparking_prius_360lidar.world)
+- Started working on the road junction world
+
+<h3>New World</h3>
+
+![new world](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/rj_world.png?raw=true)
+
+The new world so far has the following additions:
+
+- 10 m wide roads
+- 3 m wide sidewalks
+- a stationary red hatchback car (static)
+- new ackermann car
+- traffic lights
+- Pine trees
+- UK-road junction grids
+- A Pedestrian (in motion)
+
+<h3>Things to be added</h3>
+
+In the following week I will be adding the following to the world:
+
+- Moving cars
+- More lamposts/trees
+- Buildings
+- Grass patches
+
+
+
+
+
+
+
+
+
+
+
+
