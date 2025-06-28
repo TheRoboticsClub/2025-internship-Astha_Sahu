@@ -36,6 +36,15 @@ In the following week I will be adding the following to the world:
 - Buildings
 - Grass patches
 
+<h3>Issues Faced</h3>
+
+I noticed that Gazebo Harmonic doesn't work with custom shaders and even the classic ones listed on material file gazebo.material were not being rendered smoothly. 
+
+> From API Reference 8.9.0 https://gazebosim.org/api/sim/8/migrationsdf.html#:~:text=Materials "Gazebo does not support Ogre material files like Classic does, because Gazebo can be used with multiple rendering engines."
+
+In the following week, I will explore some of the alternate ways to add textures.
+
+
 
 
 
