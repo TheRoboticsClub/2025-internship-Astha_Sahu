@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Week 6 - Dynamic Road Junction World"
+date:   2025-07-03 17:40:46 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- simulated traffic (moving cars)
+- Added lamposts
+- Modified traffic light
+- Got added as a contributor on Robotics Academy Repo
+
+<h3>New World</h3>
+
+
+
+- 10 m wide roads
+- 3 m wide sidewalks
+- red hatchback cars (moving at a speed of 15m/s)
+- traffic lights
+- UK-road junction grids
+- A Pedestrian (in motion)
+- Pine trees
+- Lamposts
+
+  ![video](https://youtu.be/4Q1OUOcGa5Y?si=a288G7W1i_ztxKSK)
+
+  ![image](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/rj.png?raw=true)
+  
+  
+<h3>Handling Simulation Lag</h3>
+
+While running the simulation was slow and lagged a bit. Hence, I removed shadows and textures. Although the simulation is still slow, but it's much better than before.
+
+
+
+
+
+
+
+
+
+
+
+
