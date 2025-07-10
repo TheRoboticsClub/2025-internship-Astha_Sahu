@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Week 7 - Modified Car Spawning and Sensor use optimization"
+date:   2025-07-11 7:40:46 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Added a spawning and despawning script for continuous traffic
+- Optimized the use of sensors and cameras
+- Started working on the solution
+
+<h3>Spawning and despawning</h3>
+
+Added a custom python script and used it in the world file using the PythonSystemLoader plugin.
+The script subscribes to the world/<world_name>/create and world/<world_name>/remove. A car spawns every 8 secs and has a lifespan of 18 secs. A maximum of 3 instances of car and a minimum of 2 instances can exist at a time. The cars are detectable in lidar.
+
+<h3>Sensor and camera update</h3>
+
+The following updates have been made:
+
+- Front ray sensor has been removed
+- The rear view camera has been camera has been removed
+- FOV of two side cameras has been improved
+- The top 360 lidar is now used for 120° only
+
+The following improvements have been made after comparing their performance and utility. This has improved the computation time a lot and reduced lagging.
+
+<h3>Solution</h3>
+
+
+
+
+
+
+
+
+
