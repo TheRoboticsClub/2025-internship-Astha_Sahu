@@ -18,6 +18,8 @@ The script subscribes to the world/<world_name>/create and world/<world_name>/re
 
 [See the video here](https://drive.google.com/file/d/1ZqwtFpW22FIxDGciMGugipC6WEgHb0MY/view?usp=sharing)
 
+![terminal output](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/sd.png?raw=true)
+
 <h3>Sensor and camera update</h3>
 
 The following updates have been made:
@@ -28,6 +30,17 @@ The following updates have been made:
 - The top 360° lidar is now used for 120° only
 
 The following improvements have been made after comparing their performance and utility. This has improved the computation time a lot and reduced lagging.
+
+<h4>Lidar</h4>
+
+![lidar1](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/lidar1.png?raw=true)
+![lidar2](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/lidar2.png?raw=true)
+
+<h4>Side cameras</h4>
+
+![right](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/cr.png?raw=true)
+![left](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/cl.png?raw=true)
+
 
 
 
