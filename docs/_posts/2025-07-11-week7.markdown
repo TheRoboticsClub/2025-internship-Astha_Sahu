@@ -18,7 +18,7 @@ The script subscribes to the world/<world_name>/create and world/<world_name>/re
 
 [See the video here](https://drive.google.com/file/d/1ZqwtFpW22FIxDGciMGugipC6WEgHb0MY/view?usp=sharing)
 
-<img src="https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/sd.png?raw=true" alt="terminal output" style="width: auto; height: 20%;" />
+[Terminal Output](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/sd.png?raw=true)
 
 <h3>Sensor and camera update</h3>
 
