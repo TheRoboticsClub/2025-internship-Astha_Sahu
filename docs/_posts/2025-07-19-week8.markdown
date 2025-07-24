@@ -14,7 +14,7 @@ This week I completed the following tasks:
 
 <h3>Lidar Controller</h3>
 
-This ROS 2 Python node subscribes to a LiDAR point cloud topic (/waymo/lidar/points) and publishes velocity commands (/cmd_vel) to control a robot or vehicle. It processes incoming PointCloud2 messages, calculates the minimum distance to obstacles (ignoring vertical height), and adjusts the vehicle’s forward speed accordingly. If an obstacle is detected within a safe distance (4 meters), it reduces speed to 4 m/s, otherwise, it moves at a speed of 40 m/s. The node logs the minimum distance and corresponding speed for debugging and monitoring purposes.
+This ROS 2 Python node subscribes to a LiDAR point cloud topic (/waymo/lidar/points) and publishes velocity commands (/cmd_vel) to control the car. It processes incoming PointCloud2 messages, calculates the minimum distance to obstacles (ignoring vertical height), and adjusts the vehicle’s forward speed accordingly. If an obstacle is detected within a safe distance (4 meters), it reduces speed to 4 m/s, otherwise, it moves at a speed of 40 m/s. The node logs the minimum distance and corresponding speed for debugging and monitoring purposes.
 
 <h3>Two versions of the car</h3>
 
