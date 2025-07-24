@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Week 8 - Solution Part 1 - Using Lidar"
+date:   2025-07-19 10:26:43 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Created a launch file for the exercise
+- Created a lidar controller python script
+- Tested and debugged the controller
+- Created two separate versions of the car: original and lighter (top lidar and front camera only)
+
+<h3>Lidar Controller</h3>
+
+This ROS 2 Python node subscribes to a LiDAR point cloud topic (/waymo/lidar/points) and publishes velocity commands (/cmd_vel) to control a robot or vehicle. It processes incoming PointCloud2 messages, calculates the minimum distance to obstacles (ignoring vertical height), and adjusts the vehicle’s forward speed accordingly. If an obstacle is detected within a safe distance (4 meters), it reduces speed to 4 m/s, otherwise, it moves at a speed of 40 m/s. The node logs the minimum distance and corresponding speed for debugging and monitoring purposes.
+
+<h3>Two versions of the car</h3>
+
+<h4>Original:</h4>
+This version has :
+- One front camera on bumper
+- Two side view cameras
+- One 360 degree top lidar
+
+<h4>Lighter version:</h4>
+This version has :
+
+- One front view camera
+- One 120 degree top lidar
+
+<h3> Video demonstration </h3>
+[Click on it](https://drive.google.com/file/d/1Tnbg3kjZZJyQ0ZAvux_r4nathiSJ90US/view?usp=sharing)
+
+
+
