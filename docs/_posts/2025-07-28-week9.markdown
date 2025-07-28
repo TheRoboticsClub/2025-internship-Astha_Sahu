@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Week 9 - Solution Part 2 - Using Front Camera"
-date:   2025-07-29 22:46:03 +0530
+date:   2025-07-28 22:46:03 +0530
 categories: jekyll update
 ---
 
@@ -29,7 +29,9 @@ Subscribers:
 
 ![final](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/fw.png?raw=true
 )
-<h3> Videos </h3>
+![final2](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/fw2.png?raw=true)
+
+PS: Couldn't add videos as my laptop was hanging a lot whenever I screenrecorded
 
 
 
