@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Week 9 - Solution Part 2 - Using Front Camera"
+date:   2025-07-29 22:46:03 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Modified Stop Sign to remove textures
+- Used front camera to wait at stop sign
+- Created a solution to cross the junction using both lidar and camera
+
+<h3> ROS GAZEBO Bridges </h3>
+Subscribers:
+    - /clock: rosgraph_msgs/msg/Clock
+    - /cmd_vel: geometry_msgs/msg/Twist
+    - /odom: nav_msgs/msg/Odometry
+    - /parameter_events: rcl_interfaces/msg/ParameterEvent
+  Publishers:
+    - /clock: rosgraph_msgs/msg/Clock
+    - /parameter_events: rcl_interfaces/msg/ParameterEvent
+    - /rosout: rcl_interfaces/msg/Log
+    - /waymo/camera_front: sensor_msgs/msg/Image
+    - /waymo/camera_info: sensor_msgs/msg/CameraInfo
+    - /waymo/lidar/points: sensor_msgs/msg/PointCloud2
+
+<h3>Final World</h3>
+
+![final](https://github.com/TheRoboticsClub/2025-internship-Astha_Sahu/blob/main/docs/_posts/images/fw.png?raw=true
+)
+<h3> Videos </h3>
+
+
+
