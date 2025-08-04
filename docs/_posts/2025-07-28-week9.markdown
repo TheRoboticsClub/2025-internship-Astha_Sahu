@@ -13,17 +13,18 @@ This week I completed the following tasks:
 
 <h3> ROS GAZEBO Bridges </h3>
 Subscribers:
-    - /clock: rosgraph_msgs/msg/Clock
-    - /cmd_vel: geometry_msgs/msg/Twist
-    - /odom: nav_msgs/msg/Odometry
-    - /parameter_events: rcl_interfaces/msg/ParameterEvent
+- /clock: rosgraph_msgs/msg/Clock
+- /cmd_vel: geometry_msgs/msg/Twist
+- /odom: nav_msgs/msg/Odometry
+- /parameter_events: rcl_interfaces/msg/ParameterEvent
+
   Publishers:
-    - /clock: rosgraph_msgs/msg/Clock
-    - /parameter_events: rcl_interfaces/msg/ParameterEvent
-    - /rosout: rcl_interfaces/msg/Log
-    - /waymo/camera_front: sensor_msgs/msg/Image
-    - /waymo/camera_info: sensor_msgs/msg/CameraInfo
-    - /waymo/lidar/points: sensor_msgs/msg/PointCloud2
+- /clock: rosgraph_msgs/msg/Clock
+- /parameter_events: rcl_interfaces/msg/ParameterEvent
+- /rosout: rcl_interfaces/msg/Log
+- /waymo/camera_front: sensor_msgs/msg/Image
+- /waymo/camera_info: sensor_msgs/msg/CameraInfo
+- /waymo/lidar/points: sensor_msgs/msg/PointCloud2
 
 <h3>Final World</h3>
 
