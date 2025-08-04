@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Week 10 - Demo Video and Pull requests"
+date:   2025-08-05 03:04:00 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Made a compiled demo video for the car junction exercise
+- Cleaned the code and followed all the steps to add a new model and new exercise 
+- Created pull requests in the robotics infrastructure repository
+
+<h3> Demo Video - Car Junction Exercise</h3>
+[See the video here](https://drive.google.com/file/d/1WUb3eNVoVuLWpb0R_exq1ScEMOPGRSS3/view?usp=sharing)
+
+<h3> Pull request - New Ackermann model </h3>
+
+[Pull request #552](https://github.com/JdeRobot/RoboticsInfrastructure/pull/552)
+
+- Added the model files of the new ackermann car model for the autoparking exercise.
+- This model has a 360 degree top lidar and 3 cameras (1 front and 2 side view).
+- This model is built in Gazebo Harmonic.
+
+<h3> Pull request - Car Junction </h3>
+
+[Pull request #553](https://github.com/JdeRobot/RoboticsInfrastructure/pull/553)
+
+- Added new world (road_junction.world)
+- Added new car models (waymo_light and hatchback)
+- Added launchers
+- Updated CMakeLists.txt to include scripts
