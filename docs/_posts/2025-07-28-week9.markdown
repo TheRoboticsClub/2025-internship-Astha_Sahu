@@ -12,13 +12,16 @@ This week I completed the following tasks:
 - Created a solution to cross the junction using both lidar and camera
 
 <h3> ROS GAZEBO Bridges </h3>
+
 Subscribers:
+
 - /clock: rosgraph_msgs/msg/Clock
 - /cmd_vel: geometry_msgs/msg/Twist
 - /odom: nav_msgs/msg/Odometry
 - /parameter_events: rcl_interfaces/msg/ParameterEvent
 
   Publishers:
+  
 - /clock: rosgraph_msgs/msg/Clock
 - /parameter_events: rcl_interfaces/msg/ParameterEvent
 - /rosout: rcl_interfaces/msg/Log
