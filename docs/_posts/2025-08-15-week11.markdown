@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Week 10 - Demo Video and Pull requests"
+date:   2025-08-15 12:14:09 +0530
+categories: jekyll update
+---
+
+This week I completed the following tasks:
+
+- Modified WebGUI.py and HAL.py
+- Created exercise specific HAL interface
+- Created a camera widget to see the continous feed
+- Created a new entry in the database
+- Created a frontend for the exercise
+
+<h3> New Additions </h3>
+
+I have added a new camera view widget to the exercise to see the continous feed in real time. For this, I took the followline exercise as reference. I have added a new exercise specific HAL interface for lidar point cloud data. 
+ 
+<h3> Pull requests merged</h3>
+
+[Pull request #553](https://github.com/JdeRobot/RoboticsInfrastructure/pull/553)
+[Pull request #552](https://github.com/JdeRobot/RoboticsInfrastructure/pull/552)
+
+The new ackermann model for the autoparking exercise and the contents of the new car_junction exercise have been merged with the Robotics Infrastructure Repository.
