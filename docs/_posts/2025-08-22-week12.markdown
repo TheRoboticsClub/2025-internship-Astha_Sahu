@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Week 12 - Wrapping Up and PRs"
-date:   2025-08-23 15:15:18 +0530
+date:   2025-08-22 15:15:18 +0530
 categories: jekyll update
 ---
 
@@ -24,7 +24,8 @@ This week I completed the following tasks:
 
 Please click [here](https://drive.google.com/file/d/1pZePgq6lu5yCjNLG6QleMOOtYcClVq-s/view?usp=sharing) to see the project video.
 
-SKy images and new camera resolution can be found in the video.
+Sky images and new camera resolution can be found in the video.
 
+<h3>A Note of Gratitude</h3>
 
-
+As I wrap up my 12-week internship, I would like to thank everyone who guided and supported me throughout this journey. This internship has been a truly rewarding learning experience, with each week bringing something new to explore whether it was developing a new feature or fixing a tricky bug. I am especially grateful to my mentor - Jose María Cañas for his constant guidance, patience, and encouragement, which helped me grow both technically and professionally. I would also like to thank the supportive community at Robotics Academy for being there whenever I was stuck. Once again, thanks everyone for making this summer memorable.
